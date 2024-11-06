@@ -1,0 +1,9 @@
+run	sample	type	name	desciption	replicate
+2024.46	7257	antibody	conv_vax_rep1	TIL7257 = 0:1:1, Ab - BC5	1
+2024.46	7258	antibody	giga2050_rep1	TIL7258 = 1:0:0, Ab - BC4	1
+2024.60	7261	antigen	conv_vax_rep1	TIL7261 = 0:1:1, Ag - BC5	1
+2024.61	7262	antigen	giga2050_rep1	TIL7262 = 1:0:0, Ag - BC4	1
+2024.50	7280	antibody	giga2050_rep2	TIL7280 = GIGA2050 only, Ab - BC12	2
+2024.50	7281	antibody	conv_vax_rep2	TIL7281 = Conv/Vax 1:1, Ab - BC5	2
+2024.57	7284	antigen	giga2050_rep2	TIL7284 = GIGA2050 only, Ag - BC12	2
+2024.58	7285	antigen	conv_vax_rep2	TIL7285 = Conv/Vax 1:1, Ag - BC5	2

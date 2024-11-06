@@ -1,0 +1,23 @@
+antigen	antigen2
+CoV2_WT	CoV2 WT
+CoV2_20E_EU1	20E (EU1)
+CoV2_20H_betaV2	20H (Beta)
+CoV2_20I_alphaV1	20I (Alpha)
+CoV2_20J_gammaV3	20J (Gamma)
+CoV2_21A_delta	21A (Delta)
+CoV2_21B_kappa	21B (Kappa)
+CoV2_21C_epsilon	21C (Epsilon)
+CoV2_21D_eta	21D (Eta)
+CoV2_21F_iota	21F (Iota)
+CoV2_21G_lambda	21G (Lambda)
+CoV2_21H_mu	21H (Mu)
+CoV2_21K_omicron	21K (Omicron)
+CoV2_21M_omicron	21M (Omicron)
+CoV2_22A_omicron	22A (Omicron)
+CoV2_22C_omicron	22C (Omicron)
+CoV2_22D_BA.2.75	22D (Omicron)
+CoV2_23B_XBB.1.16	23B (Omicron)
+CoV1_WT	CoV1
+PD1	PD-1
+CTLA4	CTLA-4
+BFP	BFP
