@@ -38,7 +38,7 @@ python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq spi
 
 ### Generating antibody barcode map
 
-The antibody CDR3H, cell barcode, and UMI for each sequencing read can be retrieved using the script `denovo_cdr3_cellbc_UMI.py`. This script extracts the CDR3H amino acid sequence and filters out reads with a high frequency of low-quality nucleotides. CDR3H sequences can be generated as previously described ([Adler 2017]([https://www.tandfonline.com/doi/full/10.1080/19420862.2017.1371386#d1e1138)).
+The antibody CDR3H, cell barcode, and UMI for each sequencing read can be retrieved using the script `denovo_cdr3_cellbc_UMI.py`. This script extracts the CDR3H amino acid sequence and filters out reads with a high frequency of low-quality nucleotides. CDR3H sequences can be generated as previously described ([Adler 2017](https://www.tandfonline.com/doi/full/10.1080/19420862.2017.1371386#d1e1138)).
 
 ```
 # To generate the antibody-barcode-UMI file
