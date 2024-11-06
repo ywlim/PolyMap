@@ -32,9 +32,9 @@ The antigen, cell barcode, and UMI for each sequencing read can be retrieved usi
 python3 -m pip install scipy
 
 # To generate the antigen-barcode-UMI file
-
+cd Barcodes
 # python3 dropseq_custombc_cellbc_UMI.py <R1.fastq with antigen barcode> <R2.fastq with UMI/cell barcode> <antigen/barcode file> <output file>
-python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq ../ab_ag_barcodes/spike_2024_bcs.txt sample_bc_map.txt
+python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq spike_2024_bcs.txt sample_bc_map.txt
 
 ```
 
