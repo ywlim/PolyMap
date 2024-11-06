@@ -25,14 +25,14 @@ The first part of the analysis is performed in Python.
 
 The antigen, cell barcode, and UMI for each sequencing read can be retrieved using the script `Barcodes/dropseq_custombc_cellbc_UMI.py`. This script searches for known barcodes linked to antigens used in the Polymap experiment. Antigen/barcode file is `ab_ag_barcodes/spike_2024_bcs.txt`. It allows for up to two mismatches in the barcode and requires SciPy to run.
 
-```python
+```
 # If SciPy is not installed
 python3 -m pip install scipy
 
 # To generate the antigen-barcode-UMI file
-
+cd Barcodes
 # python3 dropseq_custombc_cellbc_UMI.py <R1.fastq with antigen barcode> <R2.fastq with UMI/cell barcode> <antigen/barcode file> <output file>
-python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq ../ab_ag_barcodes/spike_2024_bcs.txt sample_bc_map.txt
+python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq spike_2024_bcs.txt sample_bc_map.txt
 
 ```
 
@@ -40,8 +40,9 @@ python3 dropseq_custombc_cellbc_UMI.py R1_antigen.fastq R2_umi_cell_bc.fastq ../
 
 The antibody CDR3H, cell barcode, and UMI for each sequencing read can be retrieved using the script `denovo_cdr3_cellbc_UMI.py`. This script extracts the CDR3H amino acid sequence and filters out reads with a high frequency of low-quality nucleotides. CDR3H sequences can be generated as previously described ([Adler 2017]([https://www.tandfonline.com/doi/full/10.1080/19420862.2017.1371386#d1e1138)).
 
-```python
+```
 # To generate the antibody-barcode-UMI file
+cd Barcodes
 # python3 denovo_cdr3_cellbc_UMI.py <R1.fastq with UMI/cell barcode> <CDR3 file> <output file>
 python3 denovo_cdr3_cellbc_UMI.py R1_umi_cell_bc.fastq sample_CDR3s.txt sample_bc_map.txt 
 ```
