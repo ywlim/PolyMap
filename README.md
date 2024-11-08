@@ -1,12 +1,12 @@
 # PolyMap analysis of COVID antibody library and antigen library interaction mapping
 
-Author: Yoong Wearn Lim and Cindy Yeh
+## Background
 
-Date: 11/05/2024
+PolyMap is a high-throughput method to screen antibody binding to a library of cell-surface expressed antigens using ribosome display and single-cell RNA sequencing ([Wagner et al., Cell Reports Methods 2024](link)).
 
-## Goal
+Using PolyMap, we mapped the binding of diverse human donor-derived antibodies to SARS-CoV-2 Spike protein variants. 
 
-To analyze sequencing data from PolyMap experiments to map antibody library and antigen library interaction.
+Below we provide the code used to analyze the sequencing data from PolyMap experiments to map antibody library and antigen library interaction.
 
 Antibody libraries used:
 
