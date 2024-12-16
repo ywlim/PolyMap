@@ -2,7 +2,7 @@
 
 ## Background
 
-PolyMap is a high-throughput method to screen antibody binding to a library of cell-surface expressed antigens using ribosome display and single-cell RNA sequencing ([Wagner et al., Cell Reports Methods 2024](link)).
+PolyMap is a high-throughput method to screen antibody binding to a library of cell-surface expressed antigens using ribosome display and single-cell RNA sequencing ([Wagner et al., Cell Reports Methods 2024](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00324-2)).
 
 Using PolyMap, we mapped the binding of diverse human donor-derived antibodies to SARS-CoV-2 Spike protein variants. 
 
